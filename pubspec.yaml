@@ -1,0 +1,21 @@
+pubspec.yaml
+name: wingoprediction
+description: A simple app to predict WinGo color and number based on last 3 digits.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add any additional packages below (not needed now)
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
